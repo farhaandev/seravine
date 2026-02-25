@@ -16,6 +16,11 @@ import { CartProvider } from "@/context/CartContext";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
+export const metadata: Metadata = {
+  title: "Seravine | Luxury in Every Drop",
+  description: "Modern luxury fragrances crafted to define your presence. Experience premium quality, long-lasting performance, and signature scents.",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
